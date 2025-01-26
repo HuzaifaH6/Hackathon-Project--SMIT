@@ -1,0 +1,189 @@
+/* header top left logo right nav
+
+hero banner width image background headeing button get started
+
+flexbox 6 cards 
+
+cards 3 reviews
+
+contact us form name email message
+
+footer social media links quick links
+
+hover 
+
+smooth scrolling
+
+responsiveness*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top: 20px;
+
+}
+
+header nav {
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+header nav ul li:hover {
+    background-color: yellow;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.logo img {
+    display: flex;
+    align-self: center;
+    width: 117%;
+    height: 107%;
+    margin-bottom: 5px;
+    margin-bottom: 15px;
+
+}
+
+nav ul {
+    align-items: right;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section-1 {
+    height: 30vh;
+}
+
+.section-1 .box {
+    background: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 630px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.bk-image {
+    background-image: url(assests/images/RAAST.jpg);
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 50px;
+}
+
+.section-1 img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    gap: 20px;
+}
+
+
+.section-1 h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    z-index: 1;
+    color: white;
+}
+
+.section-1 p {
+
+    z-index: 1;
+    color: white;
+}
+
+.section-1 button {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border: 0 none;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+.section-1 button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section-2 {
+    height: 40vh;
+}
+
+.section-2 img {
+    margin-top: 340px;
+    width: 100%;
+    height: 59vh;
+    object-fit: cover;
+}
+
+.section-3 {
+    margin: 20px 50px;
+    margin-top: 522px;
+    display: flex;
+    width: 1000px;
+    height: 30vh;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.section-3 .card {
+    margin: 50px 0;
+    width: 300px;
+    height: 300px;
+    gap: 40px;
+}
+
+footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: #ffffff;
+}
+
+footer p{
+    font-size: 24px;
+    font-weight: 500;
+}
